@@ -1,5 +1,6 @@
 import CustomAppIcon from "@/components/shared/CustomAppIcon";
-import HeaderLocation from "./headerLoaction";
+import HeaderLocation from "./HeaderLocation";
+import HeaderActions from "./HeaderActions";
 
 
 export default function Header(){
@@ -8,7 +9,7 @@ export default function Header(){
             <div className="flex justify-between items-center">
             <CustomAppIcon />
             <HeaderLocation />
-            <div></div>
+            <HeaderActions />
             </div>
         </div>
     </section>
