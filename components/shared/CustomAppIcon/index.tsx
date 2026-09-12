@@ -8,6 +8,6 @@ export default function CustomAppIcon(){
         className="w-[28px] h-[29.98px] "
         />
      <span className="text-warning  font-bold text-31 pl-3 ">food</span>
-     <span className="text-primary font-bold text-31 ">wa<span className="text-primary font-bold font-bold text-31 ">G</span>on</span>
+     <span className="text-primary font-bold text-31 ">wa<span className="text-22 ">G</span>on</span>
      </div>);
 }

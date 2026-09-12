@@ -1,5 +1,7 @@
-export default function OffersSection(){
+import OffersSection from "./OffersSection";
+
+export default function Body(){
     return <>
-    OffersSection
+        <OffersSection />
     </>
 }

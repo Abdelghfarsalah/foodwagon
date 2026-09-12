@@ -11,9 +11,13 @@
   --color-white: var(--white);
   --color-gray-600: var(--Grey600);
   --color-grey-100: var(--Grey100);
+  --color-hero-yellow: var(--HeroYellow);
+  --color-muted-text: var(--MutedText);
+  --color-cta-orange: var(--CtaOrange);
+  --color-cta-red: var(--CtaRed);
+  --color-shadow-yellow: var(--ShadowYellow);
 
-
-    --font-sansfont: "sansfont", sans-serif;
+  --font-sansfont: "sansfont", sans-serif;
 }
 
 :root {
@@ -21,9 +25,13 @@
   --Warning:#F17228;
   --white:#FFFFFF;
   --Gray800:#424242;
-
   --Grey600:#757575;
   --Grey100:#F5F5F5;
+  --HeroYellow:#FFCA0B;
+  --MutedText:#504F4F;
+  --CtaOrange:#F65900;
+  --CtaRed:#FF7A7A;
+  --ShadowYellow:#FFAE0042;
 }
 
 .dark {
@@ -33,6 +41,11 @@
   --white:#FFFFFF;
   --Grey600:#757575;
   --Grey100:#F5F5F5;
+  --HeroYellow:#FFCA0B;
+  --MutedText:#504F4F;
+  --CtaOrange:#F65900;
+  --CtaRed:#FF7A7A;
+  --ShadowYellow:#FFAE0042;
 }
 
 
@@ -43,11 +56,18 @@
 .text-18{
   @apply text-[16px] sm:text-[18px];
 }
-.text-88{
-  @apply text-[88px] sm:text-[88px];
-}
+
 .text-22{
   @apply text-[20px] sm:text-[22px];
+}
+
+.text-35{
+  @apply text-[33px] sm:text-[35px];
+}
+.text-68{
+  @apply text-[66px] sm:text-[68px];
+}.text-88{
+  @apply text-[88px] sm:text-[88px];
 }
 
 

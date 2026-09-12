@@ -7,12 +7,12 @@ import {
 import { Separator } from "@/components/ui/separator"
 export default function Herosecrion(){
     return <section>
-        <div className="w-full bg-[#FFCA0B] bg-cover bg-no-repeat bg-center shadow-[inset_0_0_10px_rgba(0,0,0,0.2)] ">
+        <div className="w-full bg-hero-yellow bg-cover bg-no-repeat bg-center shadow-[inset_0_0_10px_rgba(0,0,0,0.2)] ">
             <div className="container m-auto pl-2  flex justify-between items-center ">
                 <div className="flex-7 pl-7 pt-23 pb-42">
                     <div className="flex flex-col ">
                     <p className="text-88  leading-none text-white font-bold ">Are you starving?</p>
-                    <p className="text-22 pt-3 text-[#504F4F] ">Within a few clicks, find meals that are accessible near you</p>
+                    <p className="text-22 pt-3 text-muted-text ">Within a few clicks, find meals that are accessible near you</p>
                     </div>
                     <div className="bg-white rounded-[16px]  flex flex-col justify-between  mt-6 ">
         <div className="flex gap-4 items-center p-6">
@@ -37,7 +37,7 @@ export default function Herosecrion(){
                                     </InputGroup>
                                 </div>
                                 <div className="flex-1">
-                                    <button className="flex justify-center items-center w-full gap-2 h-[60px] bg-[#F65900] rounded-sm bg-gradient-to-r from-[#FF7A7A] to-[#F65900]" onClick={() => {}}>
+                                    <button className="flex justify-center items-center w-full gap-2 h-[60px] bg-cta-orange rounded-sm bg-gradient-to-r from-cta-red to-cta-orange" onClick={() => {}}>
                                         <img  src={"/assets/icons/searchwhite.svg"} alt={"AppIcons not found"} width={14} height={14} />
                                         <p className="text-white font-bold text-18">Find Food</p>
                                     </button>
@@ -50,7 +50,7 @@ export default function Herosecrion(){
                    <img className="ml-auto" src={"/assets/icons/Image Base.svg"} alt={"AppIcons not found"} width={497} height={497} />
                 </div>
             </div>
-        </div> 
+        </div>  
     </section>
 }
 
