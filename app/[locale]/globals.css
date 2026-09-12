@@ -16,6 +16,7 @@
   --color-cta-orange: var(--CtaOrange);
   --color-cta-red: var(--CtaRed);
   --color-shadow-yellow: var(--ShadowYellow);
+  --color-grey-500: var(--Grey500);
 
   --font-sansfont: "sansfont", sans-serif;
 }
@@ -32,6 +33,8 @@
   --CtaOrange:#F65900;
   --CtaRed:#FF7A7A;
   --ShadowYellow:#FFAE0042;
+  
+  --Grey500:#9E9E9E;
 }
 
 .dark {
@@ -40,6 +43,7 @@
   --Gray800:#424242;
   --white:#FFFFFF;
   --Grey600:#757575;
+  --Grey500:#9E9E9E;
   --Grey100:#F5F5F5;
   --HeroYellow:#FFCA0B;
   --MutedText:#504F4F;
@@ -64,10 +68,15 @@
 .text-35{
   @apply text-[33px] sm:text-[35px];
 }
+
+.text-43{
+  @apply text-[40px] sm:text-[43px];
+}
 .text-68{
   @apply text-[66px] sm:text-[68px];
 }.text-88{
   @apply text-[88px] sm:text-[88px];
+
 }
 
 

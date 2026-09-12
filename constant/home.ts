@@ -24,3 +24,28 @@ export const offers = [
     days: "8",
   },
 ];
+
+
+export const HowItWorkCards = [
+  {
+    image: "/assets/icons/locationlarge.svg",
+    subtitle: "Choose the location where your food will be delivered.",
+    title: "Select location",
+  },
+  {
+    image: "/assets/icons/ring.svg",
+    subtitle: "Check over hundreds of menus to pick your favorite food",
+    title: "Choose order",
+  },
+  {
+    image: "/assets/icons/card.svg",
+    subtitle: "It's quick, safe, and simple. Select several methods of payment",
+    title: "Pay advanced",
+  },
+  {
+    image: "/assets/icons/cycle.svg",
+    subtitle: "Food is made and delivered directly to your home.",
+    title: "Enjoy meals",
+  },
+  
+];
