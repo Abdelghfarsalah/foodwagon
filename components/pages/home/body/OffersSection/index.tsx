@@ -4,7 +4,7 @@ import OfferCards from "./OfferCards";
 export default function OffersSection(){
     return <section className="offers-section ">
         <div className="container m-auto px-7 pt-20 pb-20  ">
-           <div className="flex gap-4  w-full flex-wrap">
+           <div className="flex gap-4  w-full flex-wrap justify-center">
              {
                 offers.map((offer, index) => (
                     <OfferCards

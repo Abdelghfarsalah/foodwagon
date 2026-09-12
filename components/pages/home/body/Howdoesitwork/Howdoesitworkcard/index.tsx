@@ -6,7 +6,7 @@ export default function HowdoesitworkCard({
   subtitle,
 }: HowItWorkCardsType) {
   return (
-    <div className="max-w-[307px] flex flex-col items-center">
+    <div className="min-w-[260px] basis-[307px] max-w-[307px] flex flex-col items-center">
       <img className="" src={image} alt="User not found" />
       <p className="m-0 text-22 leading-none text-[#434343] font-bold mt-[-20px]">
         {title}
