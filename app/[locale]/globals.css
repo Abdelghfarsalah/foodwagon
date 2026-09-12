@@ -22,7 +22,7 @@
   --white:#FFFFFF;
   --Gray800:#424242;
 
-  --Grey600:#504F4F;
+  --Grey600:#757575;
   --Grey100:#F5F5F5;
 }
 
@@ -31,7 +31,7 @@
   --Warning:#F17228;
   --Gray800:#424242;
   --white:#FFFFFF;
-  --Grey600:#504F4F;
+  --Grey600:#757575;
   --Grey100:#F5F5F5;
 }
 
@@ -53,6 +53,11 @@
 
 @font-face {
   font-family: "sansfont";
-  src: url("/fonts/sans/static/OpenSans_Condensed-Bold.ttf") format("truetype");
+  src: url("/fonts/source-sans-pro.regular.ttf") format("truetype");
+  font-weight: semibold;
+}
+@font-face {
+  font-family: "sansfont";
+  src: url("/fonts/source-sans-pro.bold.ttf") format("truetype");
   font-weight: bold;
 }
