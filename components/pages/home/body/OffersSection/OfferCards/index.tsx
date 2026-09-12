@@ -1,8 +1,11 @@
 import { OfferTypeCards } from "@/types/home";
 
 export default function OfferCards({image, title, Remaining, discount}:OfferTypeCards){
-    return <div className="flex-1 min-w-[350px] basis-[350px] max-w-[350px]">
-            <div className={`rounded-[18px] bg-center  relative h-[301px] `}  style={{ backgroundImage: `url(${image})` }}>
+    return <div className="flex-1 min-w-[350px] basis-[350px] max-w-[400px]">
+            <div className={`rounded-[18px] bg-center  relative h-[301px]  `}  style={{ backgroundImage: `url(${image})` ,
+        backgroundRepeat:"no-repeat",
+        backgroundSize:"cover"
+        }}>
                 <div className="absolute rounded-tr-[35px] p-4 rounded-bl-[18px] bottom-0 left-0 bg-primary text-white flex  items-center justify=between  h-[25%]">
                    <p className="text-68  leading-none text-white font-bold"> {discount}</p>
                     <div>

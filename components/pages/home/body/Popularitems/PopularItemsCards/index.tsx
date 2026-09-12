@@ -2,7 +2,7 @@ import { PopularItemType } from "@/types/home";
 
 export default function PopularItemCard ({ item }: { item: PopularItemType }) {
   return (
-    <div className= "flex-1 min-w-[230px] w-full max-w-sm overflow-hidden bg-white">
+    <div className= "flex-1 min-w-[260px] basis-[260px]  max-w-[300px]  bg-white">
       <img
         src={item.image}
         alt={item.name}
