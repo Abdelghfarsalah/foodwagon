@@ -2,12 +2,12 @@ import HeroCard from "./HeroCard";
 
 export default function Herosecrion(){
     return <section>
-        <div className="w-full bg-primary ">
+        <div className="w-full bg-[url('/assets/icons/Group11.svg')] bg-cover bg-[#FCCC25] ">
             <div className="container m-auto  flex justify-between ">
-                <div className="flex-7 p-4 py-25">
+                <div className="flex-7 p-6 py-27">
                     <div className="flex flex-col ">
-                    <p className="text-88 text-white">Are you starving?</p>
-                    <p className="text-22 text-gray-600">Within a few clicks, find meals that are accessible near you</p>
+                    <p className="text-[88px] text-white font-extrabold font-sansfont ">Are you starving?</p>
+                    <p className="text-22 text-gray-600 pt-4">Within a few clicks, find meals that are accessible near you</p>
                     </div>
                     <HeroCard />
                 </div>

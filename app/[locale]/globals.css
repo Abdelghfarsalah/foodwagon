@@ -11,6 +11,9 @@
   --color-white: var(--white);
   --color-gray-600: var(--Grey600);
   --color-grey-100: var(--Grey100);
+
+
+    --font-sansfont: "sansfont", sans-serif;
 }
 
 :root {
@@ -41,8 +44,15 @@
   @apply text-[16px] sm:text-[18px];
 }
 .text-88{
-  @apply text-[85px] sm:text-[88px];
+  @apply text-[88px] sm:text-[88px];
 }
 .text-22{
   @apply text-[20px] sm:text-[22px];
+}
+
+
+@font-face {
+  font-family: "sansfont";
+  src: url("/fonts/sans/static/OpenSans_Condensed-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
