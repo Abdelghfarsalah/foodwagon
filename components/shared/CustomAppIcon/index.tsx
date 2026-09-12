@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function CustomAppIcon(){
-    return (<div className="flex ">
+    return (<div className="flex items-center">
      <img
         src="/assets/icons/AppIcon.svg"
         alt="AppIcons not found"
