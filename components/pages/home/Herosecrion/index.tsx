@@ -8,13 +8,13 @@ import { Separator } from "@/components/ui/separator"
 export default function Herosecrion(){
     return <section>
         <div className="w-full bg-hero-yellow bg-cover bg-no-repeat bg-center shadow-[inset_0_0_10px_rgba(0,0,0,0.2)] ">
-            <div className="container m-auto pl-2  flex justify-between items-center ">
+            <div className="container m-auto pl-2 flex flex-col xl:flex-row  justify-between items-center ">
                 <div className="flex-7 pl-7 pt-23 pb-42">
                     <div className="flex flex-col ">
                     <p className="text-88  leading-none text-white font-bold ">Are you starving?</p>
                     <p className="text-22 pt-3 text-muted-text ">Within a few clicks, find meals that are accessible near you</p>
                     </div>
-                    <div className="bg-white rounded-[16px]  flex flex-col justify-between  mt-6 ">
+                    <div className="bg-white rounded-[16px]  flex flex-col justify-between  mt-6 mr-4 md:mr-0 ">
         <div className="flex gap-4 items-center p-6">
             <button className="flex items-center gap-2 px-6 py-2 rounded-[8px] bg-opacity-100 bg-warning/10 bg-obacity[0.1]" onClick={() => {}}>
                 <img src={"/assets/icons/Delivery.svg"} alt={"AppIcons not found"} width={23} height={18} />
