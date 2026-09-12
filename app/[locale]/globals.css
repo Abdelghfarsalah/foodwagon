@@ -17,7 +17,7 @@
   --color-cta-red: var(--CtaRed);
   --color-shadow-yellow: var(--ShadowYellow);
   --color-grey-500: var(--Grey500);
-
+  --color-gray-900: var(--Gray900);
   --font-sansfont: "sansfont", sans-serif;
 }
 
@@ -34,6 +34,7 @@
   --CtaRed:#FF7A7A;
   --ShadowYellow:#FFAE0042;
   
+  --Gray900:#212121;
   --Grey500:#9E9E9E;
 }
 
@@ -41,6 +42,7 @@
   --Primary:#FFB30E;
   --Warning:#F17228;
   --Gray800:#424242;
+  --Gray900:#212121;
   --white:#FFFFFF;
   --Grey600:#757575;
   --Grey500:#9E9E9E;
