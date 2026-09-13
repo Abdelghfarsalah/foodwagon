@@ -1,4 +1,4 @@
-import { PopularItemType } from "@/types/home";
+import { FeaturedRestaurantsType, PopularItemType } from "@/types/home";
 
 export const offers = [
   {
@@ -85,3 +85,71 @@ export const popularItemslist: PopularItemType[] = [
     price: 2.79,
   },
 ];
+
+
+export const FeaturedRestaurantslist:FeaturedRestaurantsType[]=[
+  {
+    image:"/assets/Featured/images/Image12.svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo.svg",
+    title:"Foodworld",
+    starts:46,
+    openNow:false,
+    discount:20
+  },
+  {
+    image:"/assets/Featured/images/Image.svg",
+    subimage:"/assets/Featured/icons/Image.svg",
+    title:"Pizzahub",
+    starts:40,
+    openNow:false,
+    discount:15
+  },
+  {
+    image:"/assets/Featured/images/Image (1).svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo (1).svg",
+    title:"Pizzahub",
+    starts:40,
+    openNow:true,
+    discount:10
+  },
+  {
+    image:"/assets/Featured/images/Image (2).svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo (2).svg",
+    title:"Donuts hut",
+    starts:50,
+    openNow:true,
+    discount:15
+  },
+  {
+    image:"/assets/Featured/images/Image (3).svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo (3).svg",
+    title:"Ruby Tuesday",
+    starts:26,
+    openNow:true,
+    discount:10
+  },
+  {
+    image:"/assets/Featured/images/Image (4).svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo (4).svg",
+    title:"Kuakata Fried Chicken",
+    starts:53,
+    openNow:true,
+    discount:25
+  },
+  {
+    image:"/assets/Featured/images/Image (5).svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo (5).svg",
+    title:"Red Square",
+    starts:45,
+    openNow:true,
+    discount:10
+  },
+  {
+    image:"/assets/Featured/images/Image (6).svg",
+    subimage:"/assets/Featured/icons/Restaruant Logo (6).svg",
+    title:"Taco Bell",
+    starts:35,
+    openNow:true,
+    discount:10
+  }
+]

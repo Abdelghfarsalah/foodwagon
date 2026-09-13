@@ -1,3 +1,4 @@
+import FeaturedRestaurants from "./FeaturedRestaurants";
 import HowDoesItWork from "./Howdoesitwork";
 import OffersSection from "./OffersSection";
 import PopularItems from "./Popularitems";
@@ -7,5 +8,6 @@ export default function Body(){
         <OffersSection />
         <HowDoesItWork />
         <PopularItems />
+        <FeaturedRestaurants />
     </>
 }

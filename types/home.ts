@@ -9,3 +9,13 @@ export type PopularItemType = {
   restaurant: string;
   price: number;
 };
+
+
+export type FeaturedRestaurantsType={
+    image:string,
+    subimage:string,
+    title:string,
+    discount:number,
+    starts:number,
+    openNow:boolean
+}

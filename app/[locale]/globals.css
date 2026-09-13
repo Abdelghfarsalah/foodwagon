@@ -18,6 +18,7 @@
   --color-shadow-yellow: var(--ShadowYellow);
   --color-grey-500: var(--Grey500);
   --color-gray-900: var(--Gray900);
+  --color-success: var(--Success)
   --font-sansfont: "sansfont", sans-serif;
 }
 
@@ -33,7 +34,7 @@
   --CtaOrange:#F65900;
   --CtaRed:#FF7A7A;
   --ShadowYellow:#FFAE0042;
-  
+  --Success:#79B93C;
   --Gray900:#212121;
   --Grey500:#9E9E9E;
 }
@@ -51,6 +52,8 @@
   --MutedText:#504F4F;
   --CtaOrange:#F65900;
   --CtaRed:#FF7A7A;
+  
+  --Success:#79B93C;
   --ShadowYellow:#FFAE0042;
 }
 
