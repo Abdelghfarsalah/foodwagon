@@ -24,7 +24,7 @@ export default function SearchSection(){
                       
                    </div>
                 </div>
-                <div className="flex justify-center items-center  w-full flex-wrap">
+                <div className="flex justify-center sm:justify-between items-center   w-full flex-wrap">
                     {
                         SearchbyFoodlist.map((item,index)=>(<SearchSectionCard key={index} item={item} />))
                     }    

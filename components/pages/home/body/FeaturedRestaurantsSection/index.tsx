@@ -11,7 +11,7 @@ export default function FeaturedRestaurants(){
                     FeaturedRestaurantslist.map((item,index)=>(<FeaturedRestaurantsCard item={item} key={index} />))
                 }
                 </div>
-                    <div className="flex items-center justify-center gap-2 bg-primary px-8 py-4 my-10 rounded-[14px] font-bold text-white shadow-[0_5px_10px_0_#FFAE0026,0_20px_40px_0_#FFAE0026]">
+                <div className="flex items-center justify-center gap-2 bg-primary px-8 py-4 my-10 rounded-[14px] ring-1 ring-inset ring-white/30 font-bold text-white shadow-[0_5px_10px_0_#FFAE0026,0_20px_40px_0_#FFAE0026]">
                 <p className="text-[18px]">View All</p>
                 <ChevronRight className="" size={15} />
                 </div>
