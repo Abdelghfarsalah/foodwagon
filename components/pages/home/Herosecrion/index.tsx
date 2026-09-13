@@ -11,7 +11,7 @@ export default function Herosecrion(){
             <div className="container m-auto pl-2 flex flex-col xl:flex-row  justify-between items-center ">
                 <div className="flex-7 pl-7 pt-23 pb-5  xl:pb-42">
                     <div className="flex flex-col ">
-                    <p className="text-88  leading-none text-white font-bold ">Are you starving?</p>
+                    <p className=" text-35 mdtext-88  leading-none text-white font-bold ">Are you starving?</p>
                     <p className="text-22 pt-3 text-muted-text ">Within a few clicks, find meals that are accessible near you</p>
                     </div>
                     <div className="bg-white rounded-[16px]  flex flex-col justify-between  mt-6 mr-4 md:mr-0 ">
@@ -27,8 +27,8 @@ export default function Herosecrion(){
                     </div>
                     <Separator className="bg-gray-300"/>
                     <div className="p-6">
-                        <div className=" flex gap-4 items-center">
-                            <div className="flex-3">
+                        <div className="flex flex-col md:flex-row gap-4 items-center">
+                            <div className="flex-3 w-full">
                                 <InputGroup className="h-[49px] border-none bg-gray-100 focus-within:border-none focus-within:ring-0 flex-3" >
                                     <InputGroupInput placeholder="  Enter Your Address"  className="bg-gray-100 border-none focus-within:border-none focus-within:ring-0 mr-2"/>
                                     <InputGroupAddon >
@@ -37,7 +37,7 @@ export default function Herosecrion(){
                                 </InputGroup>
                             </div>
                             <div className="flex-1">
-                                <button className="flex justify-center items-center w-full gap-2 h-[60px] bg-cta-orange rounded-sm bg-gradient-to-r from-cta-red to-cta-orange" onClick={() => {}}>
+                                <button className="flex justify-center items-center min-w-[199px] w-full gap-2 h-[60px] bg-cta-orange rounded-sm bg-gradient-to-r from-cta-red to-cta-orange" onClick={() => {}}>
                                     <img  src={"/assets/icons/searchwhite.svg"} alt={"AppIcons not found"} width={14} height={14} />
                                     <p className="text-white font-bold text-18">Find Food</p>
                                 </button>
@@ -46,7 +46,7 @@ export default function Herosecrion(){
                     </div>
                     </div>
                 </div>
-                <div  className="flex-5 mt-0  xl:mt-auto  ">
+                <div  className="flex-5 mt-0  xl:mt-auto  w-[300px] xl:w-full ">
                    <img className="ml-auto" src={"/assets/icons/Image Base.svg"} alt={"AppIcons not found"} width={497} height={497} />
                 </div>
             </div>
