@@ -20,13 +20,13 @@ export default function OrdersCard({
         {direction && (
           <img
             src={image}
-            className="w-full h-64 sm:h-80 lg:h-96 2xl:h-auto 2xl:w-1/2 object-cover 2xl:rounded-l-xl"
+            className="w-full flex-1 h-64 sm:h-80 lg:h-96 2xl:h-auto 2xl:w-2/3 object-cover 2xl:rounded-l-xl"
             alt=""
           />
         )}
 
         {/* Content */}
-        <div className="flex flex-col justify-center w-full 2xl:w-1/2 px-6 sm:px-10 lg:px-14 py-10 sm:py-12 lg:py-14">
+        <div className="flex flex-col justify-center  w-full  2xl:w-1/3 px-6 sm:px-10 lg:px-14 py-10 sm:py-12 lg:py-14 2xl:py-14">
           
           <div>
             <p className="text-[28px] sm:text-[34px] lg:text-[40px] 2xl:text-[43px] font-bold text-[#353535] max-w-full 2xl:max-w-102 leading-tight">
@@ -42,7 +42,7 @@ export default function OrdersCard({
           </div>
 
           {/* Button */}
-          <div className="flex items-center justify-center gap-2 bg-primary px-6 sm:px-8 py-3 sm:py-4 mt-8 sm:mt-10 rounded-[14px] ring-1 ring-inset ring-white/30 font-bold text-white shadow-[0_5px_10px_0_#FFAE0026,0_20px_40px_0_#FFAE0026] cursor-pointer w-full sm:w-fit">
+          <div className="flex w-200 2xl:mt-28 items-center justify-center gap-2 bg-primary px-6 sm:px-8 py-3 sm:py-4 mt-8 sm:mt-10 rounded-[14px] ring-1 ring-inset ring-white/30  font-bold text-white shadow-[0_5px_10px_0_#FFAE0026,0_20px_40px_0_#FFAE0026] cursor-pointer w-full ">
             <p className="text-[14px] sm:text-[16px] lg:text-[18px]">
               Proceed to order
             </p>
@@ -54,7 +54,7 @@ export default function OrdersCard({
         {!direction && (
           <img
             src={image}
-            className="w-full h-64 sm:h-80 lg:h-96 2xl:h-auto 2xl:w-1/2 object-cover 2xl:rounded-r-xl"
+            className="w-full h-64 sm:h-80 lg:h-96 2xl:h-auto  2xl:w-2/3 object-cover 2xl:rounded-r-xl"
             alt=""
           />
         )}
