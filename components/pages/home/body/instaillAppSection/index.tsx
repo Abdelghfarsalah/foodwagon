@@ -48,7 +48,7 @@ export default function InstallAppSection(){
                     <div className="flex  gap-2 w-full mt-10 ">
                        <div className="bg-white  h-15  w-full rounded-[5px] p-[15px] flex gap-2 justify-cenetr items-center">
                              <img src={"/assets/App/Google Play logo.svg"} alt={"AppIcons not found"} width={27} height={27}    />
-                             <div className="flex flex-col  justify-start items-start leading-tight ">
+                             <div className="flex flex-col  justify-start items-start leading-5 ">
                                 <p className="text-gray-700 text-18  leading-tight ">Get it on</p>
                                 <p className="text-gray-700 font-bold text-22 ">Google Play</p>
                              </div>
