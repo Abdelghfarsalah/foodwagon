@@ -1,7 +1,7 @@
 import { OfferTypeCards } from "@/types/home";
 
 export default function OfferCards({image, title, Remaining, discount}:OfferTypeCards){
-    return <div className="flex-1 min-w-[350px] basis-[350px] max-w-[400px]">
+    return <div className="flex-1 min-w-[260px] basis-[350px] max-w-[400px]">
             <div className={`rounded-[18px] bg-center  relative h-[301px]  `}  style={{ backgroundImage: `url(${image})` ,
         backgroundRepeat:"no-repeat",
         backgroundSize:"cover"
