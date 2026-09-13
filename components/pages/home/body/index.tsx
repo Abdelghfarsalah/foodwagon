@@ -1,7 +1,8 @@
-import FeaturedRestaurants from "./FeaturedRestaurants";
-import HowDoesItWork from "./Howdoesitwork";
+import FeaturedRestaurants from "./FeaturedRestaurantsSection";
+import HowDoesItWork from "./HowdoesitworkSection";
 import OffersSection from "./OffersSection";
-import PopularItems from "./Popularitems";
+import PopularItems from "./PopularitemsSection";
+import SearchSection from "./SearchSection";
 
 export default function Body(){
     return <>
@@ -9,5 +10,6 @@ export default function Body(){
         <HowDoesItWork />
         <PopularItems />
         <FeaturedRestaurants />
+        <SearchSection />
     </>
 }

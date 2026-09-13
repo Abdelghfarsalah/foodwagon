@@ -19,3 +19,8 @@ export type FeaturedRestaurantsType={
     starts:number,
     openNow:boolean
 }
+
+export type SearchbyFoodtype={
+    title:string,
+    image:string
+}

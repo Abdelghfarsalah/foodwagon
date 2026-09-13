@@ -1,4 +1,4 @@
-import { FeaturedRestaurantsType, PopularItemType } from "@/types/home";
+import { FeaturedRestaurantsType, PopularItemType, SearchbyFoodtype } from "@/types/home";
 
 export const offers = [
   {
@@ -152,4 +152,27 @@ export const FeaturedRestaurantslist:FeaturedRestaurantsType[]=[
     openNow:true,
     discount:10
   }
+]
+
+
+export const SearchbyFoodlist:SearchbyFoodtype[]=[{
+  image:"/assets/search/Food Photo.svg",
+  title:"Pizza"
+},{
+  image:"/assets/search/Image.svg",
+  title:"Burger"
+},{
+  image:"/assets/search/Image (1).svg",
+  title:"Noodles"
+},{
+  image:"/assets/search/Image (2).svg",
+  title:"Sub-sandiwch"
+},{
+  image:"/assets/search/Image (3).svg",
+  title:"Chowmein"
+},{
+  image:"/assets/search/Food Photo (1).svg",
+  title:"Steak"
+},
+
 ]

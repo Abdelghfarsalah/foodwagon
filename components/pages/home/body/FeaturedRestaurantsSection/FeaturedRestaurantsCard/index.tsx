@@ -3,10 +3,10 @@ import { FeaturedRestaurantsType } from "@/types/home";
 export default function FeaturedRestaurantsCard({item}:{item:FeaturedRestaurantsType}){
     return <div className="py-6 ">
         <div className="relative   min-w-[260px] basis-[357px] max-w-[400px]  ">
-             <img src={item.image} alt={"AppIcons not found"} className="w-full h-[301px] rounded-[16px]" />
+             <img src={item.image} alt={"AppIcons not found"} className="w-full h-[301px] rounded-[16px] min-w-[260px] basis-[357px] max-w-[400px]" />
              <div className="absolute top-5 left-5 flex gap-4 items-center">
                 <div className=" flex bg-warning py-1 px-4 rounded-[8px] items-center ">
-                     <img src={"/assets/icons/icon.svg"} alt={"AppIcons not found"} width={20} height={20} />
+                     <img  src={"/assets/icons/icon.svg"} alt={"AppIcons not found"} width={20} height={20} />
                      <p className="ml-2 text-22 font-bold text-white"> {item.discount}%</p> 
                      <p className="ml-2 text-22 font-bold text-white" >off</p>
                 </div>
