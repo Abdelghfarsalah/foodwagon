@@ -19,7 +19,7 @@ export default function Header(){
                 </div>
                 <div className=" loginButton hidden md:flex gap-2 items-center px-4 py-2 shadow-[0_20px_40px_0_#FFAE0042] shadow-[0_5px_10px_0_#FFAE0042] rounded-[5px] ">
                     <img  src={"/assets/icons/user.svg"} alt={"User not found"} width={16} height={18} />
-                    <p className="text-18 font-bold text-primary ">Login</p>
+                    <p className="text-18 font-bold text-primary cursor-pointer ">Login</p>
                 </div>
             </div>
             </div>

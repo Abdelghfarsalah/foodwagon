@@ -39,7 +39,7 @@ export default function Herosecrion(){
                             <div className="flex-1">
                                 <button className="flex justify-center items-center min-w-[199px] w-full gap-2 h-[60px] bg-cta-orange rounded-sm bg-gradient-to-r from-cta-red to-cta-orange" onClick={() => {}}>
                                     <img  src={"/assets/icons/searchwhite.svg"} alt={"AppIcons not found"} width={14} height={14} />
-                                    <p className="text-white font-bold text-18">Find Food</p>
+                                    <p className="text-white font-bold text-18 cursor-pointer">Find Food</p>
                                 </button>
                             </div>
                         </div>

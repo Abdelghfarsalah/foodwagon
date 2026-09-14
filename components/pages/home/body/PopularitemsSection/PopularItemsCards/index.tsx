@@ -7,7 +7,7 @@ export default function PopularItemCard ({ item }: { item: PopularItemType }) {
         src={item.image}
         alt={item.name}
         className="h-[283px]  rounded-[16px] object-cover"/>
-    <p className="text-22 font-bold text-gray-800 pt-3 ">
+    <p className="text-22  font-bold text-gray-800 pt-3 ">
       {item.name}
     </p>
 
@@ -20,7 +20,7 @@ export default function PopularItemCard ({ item }: { item: PopularItemType }) {
     <p className="text-22 font-bold text-gray-900 pb-2 ">
         ${item.price.toFixed(2) }
     </p>
-    <div className=" min-w-[260px] basis-[260px]  max-w-[300px]  flex items-center justify-center py-4 bg-warning text-white py-2 px-4 rounded-md w-full text-[18px] font-bold !shadow-[0_5px_10px_rgba(253,114,92,0.2),0_20px_40px_rgba(253,114,92,0.2)]">
+    <div className=" cursor-pointer min-w-[260px] basis-[260px]  max-w-[300px]  flex items-center justify-center py-4 bg-warning text-white py-2 px-4 rounded-md w-full text-[18px] font-bold !shadow-[0_5px_10px_rgba(253,114,92,0.2),0_20px_40px_rgba(253,114,92,0.2)]">
     Order Now
     </div>
 

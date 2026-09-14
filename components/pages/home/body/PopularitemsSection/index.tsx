@@ -7,7 +7,7 @@ export default function PopularItems(){
             <div className="flex flex-col gap-4 items-center ">
                 <p className="text-43 font-bold text-gray-900 py-10 ">Popular Items</p>
                 <div className="flex gap-6 items-center relative w-full ">
-                    <img className="absolute  hidden xl:block left-[-140px] h-[130px] w-[130px] object-cover"  src={"/assets/icons/ArrowLeft.svg"} alt={"ArrowLeft not found"} />
+                    <img className="absolute cursor-pointer hidden xl:block left-[-140px] h-[130px] w-[130px] object-cover"  src={"/assets/icons/ArrowLeft.svg"} alt={"ArrowLeft not found"} />
                     <div className=" flex justify-center items-center gap-6 w-full flex-wrap">
                        {
                         popularItemslist.map((item) => (
@@ -15,7 +15,7 @@ export default function PopularItems(){
                         ))
                        }
                     </div>
-                    <img className="absolute hidden xl:block right-[-140px] h-[130px] w-[130px] object-cover"   src={"/assets/icons/ArrowRight.svg"} alt={"ArrowRight not found"} />/
+                    <img className="absolute hidden cursor-pointer xl:block right-[-140px] h-[130px] w-[130px] object-cover"   src={"/assets/icons/ArrowRight.svg"} alt={"ArrowRight not found"} />
                 </div>
             </div>
           </div>

@@ -176,3 +176,80 @@ export const SearchbyFoodlist:SearchbyFoodtype[]=[{
 },
 
 ]
+
+export const cities = [
+  // Column 1
+  [
+    "San Francisco",
+    "Miami",
+    "San Diego",
+    "East Bay",
+    "Long Beach",
+  ],
+
+  // Column 2
+  [
+    "Los Angeles",
+    "Washington DC",
+    "Seattle",
+    "Portland",
+    "Nashville",
+  ],
+
+  // Column 3
+  [
+    "New York City",
+    "Orange County",
+    "Atlanta",
+    "Charlotte",
+    "Denver",
+  ],
+
+  // Column 4
+  [
+    "Chicago",
+    "Phoenix",
+    "Las Vegas",
+    "Sacramento",
+    "Oklahoma City",
+  ],
+
+  // Column 5
+  [
+    "Columbus",
+    "New Mexico",
+    "Albuquerque",
+    "Sacramento",
+    "New Orleans",
+  ],
+];
+
+
+export const footerLinks = [
+  {
+    title: "Company",
+    links: [
+      "About us",
+      "Team",
+      "Careers",
+      "Blog"
+    ]
+  },
+  {
+    title: "Contact",
+    links: [
+      "Help & Support",
+      "Partner with us",
+      "Ride with us"
+    ]
+  },
+  {
+    title: "Legal",
+    links: [
+      "Terms & Conditions",
+      "Refund & Cancellation",
+      "Privacy Policy",
+      "Cookie Policy"
+    ]
+  }
+];
