@@ -11,7 +11,7 @@ export default function Herosecrion(){
             <div className="container m-auto pl-2 flex flex-col xl:flex-row  justify-between items-center ">
                 <div className="flex-7 pl-7 pt-23 pb-5  xl:pb-42">
                     <div className="flex flex-col ">
-                    <p className=" text-35 mdtext-88  leading-none text-white font-bold ">Are you starving?</p>
+                    <p className="   leading-none text-white font-bold text-[35px] md:text-[43px] 2xl:text-[88px]">Are you starving?</p>
                     <p className="text-22 pt-3 text-muted-text ">Within a few clicks, find meals that are accessible near you</p>
                     </div>
                     <div className="bg-white rounded-[16px]  flex flex-col justify-between  mt-6 mr-4 md:mr-0 ">
