@@ -11,7 +11,7 @@ export default function Herosecrion(){
             <div className="container m-auto pl-2 flex flex-col xl:flex-row  justify-between items-center ">
                 <div className="flex-7 pl-7 pt-23 pb-5  xl:pb-42">
                     <div className="flex flex-col ">
-                    <p className="   leading-none text-white font-bold text-[35px] md:text-[43px] 2xl:text-[88px]">Are you starving?</p>
+                    <p className="   leading-none text-white  text-[35px] md:text-[43px] 2xl:text-[88px] font-bold">Are you starving?</p>
                     <p className="text-22 pt-3 text-muted-text ">Within a few clicks, find meals that are accessible near you</p>
                     </div>
                     <div className="bg-white rounded-[16px]  flex flex-col justify-between  mt-6 mr-4 md:mr-0 ">
@@ -39,7 +39,7 @@ export default function Herosecrion(){
                             <div className="flex-1">
                                 <button className="flex justify-center items-center min-w-[199px] w-full gap-2 h-[60px] bg-cta-orange rounded-sm bg-gradient-to-r from-cta-red to-cta-orange" onClick={() => {}}>
                                     <img  src={"/assets/icons/searchwhite.svg"} alt={"AppIcons not found"} width={14} height={14} />
-                                    <p className="text-white font-bold text-18 cursor-pointer">Find Food</p>
+                                    <p className="text-white font-bold text-18 ">Find Food</p>
                                 </button>
                             </div>
                         </div>

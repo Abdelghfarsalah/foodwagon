@@ -6,7 +6,7 @@ export default function FeaturedRestaurantsCard({
   item: FeaturedRestaurantsType;
 }) {
   return (
-    <div className="w-full py-4 sm:py-6">
+    <div className=" py-4 sm:py-6">
       {/* Image */}
       <div className="relative w-full">
         <img
